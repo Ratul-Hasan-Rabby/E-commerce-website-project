@@ -1,0 +1,1321 @@
+*::before,
+*::after,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*............................header........................*/
+
+body {
+    background-color: #EDECEC;
+}
+
+header {
+    width: 100%;
+    height: 175px;
+    background-color: aquamarine;
+}
+
+.header {
+    width: 100%;
+    height: 55px;
+    background-color: black;
+    display: flex;
+
+}
+
+.logomogo {
+    width: 50%;
+    display: flex;
+    padding-left: 35px;
+
+}
+
+.logo1 {
+    margin-top: 15px;
+
+}
+
+.logo2 {
+    color: white;
+    font-size: 8px;
+    font-family: monospace;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+
+
+.nav1 {
+    width: 50%;
+
+}
+
+.nav1 ul {
+    display: flex;
+    list-style: none;
+    float: right;
+    justify-content: space-between;
+    margin: 15px 0px 0px 0px;
+
+}
+
+.nav1 ul li {
+    margin: 0px 50px 0px 0px;
+}
+
+.nav1 ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.nav1 ul li a:hover {
+
+    color: #751FFF;
+    font-size: 15px;
+}
+
+
+/*............................header-part2........................*/
+.header-part2 {
+    width: 100%;
+    height: 70px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    /*    float: left;*/
+}
+
+.part2-logo {
+    padding: 15px 0px 0px 30px;
+    font-family: sans-serif;
+}
+
+.part2-search {
+    margin-right: 150px;
+    position: relative;
+}
+
+.part2-search i {
+    padding: 9px 30px 10px 20px;
+    background-color: #751FFF;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    position: absolute;
+    color: white;
+    right: -64px;
+    top: 15px;
+}
+
+.part2-search i:hover {
+    border: 1px solid black;
+    background-color: black;
+}
+
+.part2-search input {
+    margin-top: 15px;
+    padding: 10px 50px 10px 10px;
+    background-color: #EDECEC;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border: none;
+}
+
+.part2-search input:hover {
+    border: 1px solid black;
+    background-color: white;
+}
+
+
+
+.part2-nav ul {
+    display: flex;
+    list-style: none;
+    padding: 25px 50px 0px 0px;
+}
+
+.part2-nav ul li {
+    margin-right: 25px;
+}
+
+.part2-nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+.part2-nav ul li a:hover {
+    color: cornflowerblue;
+}
+
+/*............................header-part3........................*/
+
+.header-part3 {
+    width: 100%;
+    height: 50px;
+    background-color: #EDECEC;
+
+}
+
+.header-part3 ul {
+    padding: 15px 50px 10px 20px;
+    display: flex;
+    /*    align-items: center;*/
+    /*    justify-items: center;*/
+    justify-content: space-around;
+    list-style: none;
+}
+
+.header-part3 ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: black;
+
+}
+
+.header-part3 ul li a:hover {
+    color: cornflowerblue;
+}
+
+
+/*............................main-section-one........................*/
+
+.section-one {
+    width: 100%;
+    height: 500px;
+    background-image: url(img/1111.png);
+    /*    background-repeat: no-repeat;*/
+    background-size: cover;
+
+
+}
+
+.main-contain {
+    padding: 80px 10px 50px 150px;
+}
+
+.main-contain h3 {
+    padding: 3px 3px 3px 3px;
+    font-family: sans-serif;
+    background-color: crimson;
+    color: white;
+    font-size: 13px;
+    width: 80px;
+}
+
+.main-contain h1 {
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 45px;
+}
+
+.main-contain h2 {
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.main-contain a {
+    margin-top: 20px;
+    background-color: #751FFF;
+    padding: 10px 50px 10px 50px;
+    /*    border-radius: 30%;*/
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.main-contain a:hover {
+    background-color: black;
+}
+
+/*    <!--..........box-section-two..................-->*/
+
+.section-two {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 {
+    background-image: url(img/22.jpg);
+    background-size: cover;
+    width: 450px;
+    height: 350px;
+    /*    background-color: aqua;*/
+    margin: 0px 20px 0px 10px;
+    /*
+    display: grid;
+    place-items: center;
+*/
+}
+
+
+.box2 {
+    background-image: url(img/222.jpg);
+    background-size: cover;
+    width: 450px;
+    height: 350px;
+    /*    background-color: aqua;*/
+    margin: 0px 0px 0px 20px;
+}
+
+.box-contain {
+    padding: 50px 0px 0px 60px;
+}
+
+.box-contain h3 {
+    /*    padding: 3px 3px 3px 3px;*/
+    font-family: sans-serif;
+    /*    background-color: crimson;*/
+    color: white;
+    font-size: 13px;
+    /*    width: 80px;*/
+}
+
+.box-contain h1 {
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.box-contain h2 {
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-bottom: 25px;
+    color: wheat;
+}
+
+.box-contain a {
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px 30px 10px 30px;
+    /*    border-radius: 30%;*/
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 12px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.box-contain a:hover {
+    background-color: chartreuse;
+}
+
+/* <!--    ......................section-service............................-->*/
+
+.section-service {
+    widows: 100%;
+    height: 150px;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.section-service div h2 {
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
+
+.service-img {
+    display: flex;
+}
+
+.service-img h2 {
+    margin-top: 10px;
+}
+
+
+/*    <!--...................section-Sellers............................-->*/
+.section-Sellers {
+    width: 100%;
+    height: 550px;
+    /*    margin: 0px 0px 30px 30px;*/
+    /*    background-color: white;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sellers-main-contain {
+    width: 95%;
+    height: 500px;
+    margin: 0px 0px 20px 0px;
+    background-color: white;
+}
+
+
+.seller-tittle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100px;
+
+}
+
+.seller-tittle h1 {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+.seller-img {
+    display: flex;
+    justify-content: center;
+    /*    align-content: center;*/
+    align-items: center;
+    width: 100%;
+    height: 300px;
+}
+
+.img-box1 {
+    width: 150px;
+    height: 250px;
+    border: 1px solid #EDECEC;
+    /*    position: relative;*/
+}
+
+.pic {
+    height: 50%;
+    width: 100%;
+    position: relative;
+    transition: 0.5s;
+}
+
+
+
+.pic h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 10px 5px 10px;
+    background-color: #D72D2D;
+    color: white;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+.price {
+    width: 100%;
+    height: 50%;
+    /*    position: relative;*/
+    display: flex;
+    justify-content: center;
+    /*    align-content: center;*/
+    align-items: center;
+    padding: 20px;
+
+}
+
+.price h3 {
+    font-size: 15px;
+    /*    position: absolute;*/
+}
+
+
+.price h3 {
+    font-size: 12px;
+    /*    position: absolute;*/
+    font-family: sans-serif;
+    line-height: 20px;
+    font-weight: lighter;
+}
+
+
+.price h3 span {
+    color: cornflowerblue;
+    padding-top: 5px;
+}
+
+
+
+.seller-button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+
+
+.seller-button a {
+    margin-top: 10px;
+    background-color: #751FFF;
+    padding: 10px 100px 10px 100px;
+    /*    border-radius: 30%;*/
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.seller-button a:hover {
+    background-color: black;
+}
+
+/*wduhdliuhdihihdwiudhwdd*/
+.section-Sellers {
+    width: 100%;
+    height: 550px;
+    /*    margin: 0px 0px 30px 30px;*/
+    /*    background-color: white;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/*    <!--...................Shop............................-->*/
+.section-Shop {
+    width: 100%;
+    height: 650px;
+    /*    margin: 0px 0px 30px 30px;*/
+    /*    background-color: white;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.Shop-main-contain {
+    width: 95%;
+    height: 600px;
+    margin: 0px 0px 20px 0px;
+    background-color: #6940AD;
+    overflow: hidden;
+}
+
+
+.Shop-tittle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100px;
+
+}
+
+.Shop-tittle h1 {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.Shop-img {
+    display: flex;
+    justify-content: space-around;
+    /*    align-content: center;*/
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    /*    overflow: hidden;*/
+}
+
+.Shop-box1 {
+    width: 150px;
+    height: 200px;
+    /*    overflow: hidden;*/
+}
+
+.pic-shop {
+    height: 70%;
+    width: 100%;
+    /*    overflow: hidden;*/
+    clip-path: circle(50% at 50% 50%);
+    /*    background-color: aqua;*/
+}
+
+.pic-shop img {
+    width: 130px;
+    clip-path: circle(50% at 50% 50%);
+    border: 20px solid white;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.pic-shop img:hover {
+    transform: scale(2);
+    overflow: hidden;
+}
+
+.price-shop {
+    width: 100%;
+    height: 30%;
+    /*    position: relative;*/
+    display: flex;
+    justify-content: center;
+    /*    align-content: center;*/
+    align-items: center;
+    overflow: hidden;
+}
+
+.price-shop h3 {
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 20px;
+    font-weight: lighter;
+    color: white;
+}
+
+/*............................BestPrice........................*/
+.BestPrice {
+    width: 100%;
+    height: 500px;
+    padding: 30px;
+}
+
+.BestPrice-box {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+
+.BestPrice-adsulote {
+    clip-path: circle(50% at 50% 50%);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #D72D2D;
+    width: 100px;
+    height: 100px;
+    top: 10%;
+    right: 45%;
+    z-index: 1;
+    box-shadow: 50px;
+}
+
+.BestPrice-pic {
+    width: 70%;
+    background-image: url(img/parth%20bac2.png);
+    background-size: cover;
+    clip-path: polygon(0 0, 81% 0, 100% 100%, 0% 100%);
+}
+
+.BestPrice-text {
+    width: 30%;
+}
+
+.BestPrice-text {
+
+    background-size: cover;
+    width: 450px;
+    height: 350px;
+    margin: 0px 20px 0px 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.BestPrice-text-contain {
+    padding: 50px 0px 0px 60px;
+}
+
+.BestPrice-text-contain h3 {
+    /*    padding: 3px 3px 3px 3px;*/
+    font-family: sans-serif;
+    /*    background-color: crimson;*/
+    color: black;
+    font-size: 18px;
+    /*    width: 80px;*/
+}
+
+.BestPrice-text-contain h1 {
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 50px;
+    color: black;
+}
+
+.BestPrice-text-contain h2 {
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: black;
+}
+
+.BestPrice-text-contain a {
+    /*    margin-top: 1000px;*/
+    background-color: #7D2CFF;
+    padding: 15px 40px 15px 40px;
+    /*    border-radius: 30%;*/
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+
+}
+
+.BestPrice-text-contain a:hover {
+    background-color: black;
+}
+
+
+
+/*............................On Sale........................*/
+.section-Sellers {
+    width: 100%;
+    height: 550px;
+    /*    margin: 0px 0px 30px 30px;*/
+    /*    background-color: white;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sellers-main-contain {
+    width: 95%;
+    height: 500px;
+    margin: 0px 0px 20px 0px;
+    background-color: white;
+}
+
+
+.seller-tittle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100px;
+
+}
+
+.seller-tittle h1 {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+.seller-img {
+    display: flex;
+    justify-content: center;
+    /*    align-content: center;*/
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    /*    background-color: white;*/
+}
+
+.img-box1 {
+    width: 150px;
+    height: 250px;
+    border: 1px solid #EDECEC;
+    /*    position: relative;*/
+}
+
+.pic {
+    height: 50%;
+    width: 100%;
+    position: relative;
+    transition: 0.5s;
+}
+
+
+
+.pic h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 10px 5px 10px;
+    background-color: #D72D2D;
+    color: white;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+.price {
+    width: 100%;
+    height: 50%;
+    /*    position: relative;*/
+    display: flex;
+    justify-content: center;
+    /*    align-content: center;*/
+    align-items: center;
+    padding: 20px;
+
+}
+
+.price h3 {
+    font-size: 15px;
+    /*    position: absolute;*/
+}
+
+
+.price h3 {
+    font-size: 12px;
+    /*    position: absolute;*/
+    font-family: sans-serif;
+    line-height: 20px;
+    font-weight: lighter;
+}
+
+
+.price h3 span {
+    color: cornflowerblue;
+    padding-top: 5px;
+}
+
+
+
+.seller-button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+
+
+.seller-button a {
+    margin-top: 10px;
+    background-color: #751FFF;
+    padding: 10px 100px 10px 100px;
+    /*    border-radius: 30%;*/
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.seller-button a:hover {
+    background-color: black;
+}
+
+
+
+
+/*............................Special........................*/
+
+.Special {
+    width: 100%;
+    height: 500px;
+    padding: 30px;
+}
+
+.Special-box {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+
+.Special-adsulote {
+    clip-path: circle(50% at 50% 50%);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #D72D2D;
+    width: 100px;
+    height: 100px;
+    top: 10%;
+    right: 45%;
+    z-index: 1;
+    box-shadow: 50px;
+}
+
+.Special-pic {
+    width: 70%;
+    background-image: url(img/parth%20bac.png);
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 21% 100%);
+}
+
+.Special-text {
+    width: 30%;
+}
+
+.Special-text {
+
+    background-size: cover;
+    width: 450px;
+    height: 350px;
+    margin: 0px 20px 0px 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.Special-text-contain {
+    padding: 50px 0px 0px 60px;
+}
+
+.Special-text-contain h3 {
+    padding: 3px 3px 3px 3px;
+    font-family: sans-serif;
+    background-color: crimson;
+    color: white;
+    font-size: 18px;
+    width: 150px;
+}
+
+.Special-text-contain h1 {
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 50px;
+    color: black;
+}
+
+.Special-text-contain h2 {
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: black;
+}
+
+.Special-text-contain a {
+    /*    margin-top: 1000px;*/
+    background-color: #7D2CFF;
+    padding: 15px 50px 15px 50px;
+    /*    border-radius: 30%;*/
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+
+}
+
+.Special-text-contain a:hover {
+    background-color: black;
+}
+
+
+
+
+
+/*............................Brands........................*/
+.Brands-Sellers {
+    width: 100%;
+    height: 300px;
+    /*    margin: 0px 0px 30px 30px;*/
+    /*    background-color: white;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Brands-main-contain {
+    width: 95%;
+    height: 250px;
+    margin: 0px 0px 20px 0px;
+    background-color: white;
+}
+
+
+.Brands-tittle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100px;
+
+}
+
+.Brands-tittle h1 {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+.Brands-img {
+    display: flex;
+    justify-content: center;
+    /*    align-content: center;*/
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    /*    background-color: white;*/
+}
+
+.img-box1 {
+    width: 150px;
+    height: 100px;
+    border: 1px solid #EDECEC;
+    /*    position: relative;*/
+}
+
+.pic {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: 0.5s;
+}
+
+
+
+
+/*............................Newsletter........................*/
+.Newsletter-Sellers {
+    width: 100%;
+    height: 300px;
+    /*    margin: 0px 0px 30px 30px;*/
+    /*    background-color: white;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Newsletter-main-contain {
+    width: 95%;
+    height: 230px;
+    margin: 0px 0px 20px 0px;
+    background-color: #751FFF;
+}
+
+
+.Newsletter-tittle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100px;
+
+}
+
+.Newsletter-tittle b {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-left: 100px;
+}
+
+
+.Newsletter-tittle span {
+    font-family: sans-serif;
+    font-size: 13px;
+    color: white;
+    font-weight: lighter;
+}
+
+.Newsletter-Email {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.Newsletter-search {
+    margin-right: 150px;
+    position: relative;
+}
+
+.Newsletter-search h3 {
+    font-family: sans-serif;
+    font-size: 13px;
+    color: white
+}
+
+.Newsletter-search h2 {
+    padding: 14px 50px 14px 50px;
+    background-color: black;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    font-family: sans-serif;
+    position: absolute;
+    color: white;
+    font-size: 13px;
+    font-weight: lighter;
+    right: -70px;
+    top: 30px;
+    transition: 0.5s;
+}
+
+.Newsletter-search h2:hover {
+    /*    border: 1px solid black;*/
+    /*    color: black;*/
+    background-color: blueviolet;
+}
+
+.Newsletter-search input {
+    margin-top: 15px;
+    padding: 12px 350px 12px 10px;
+    background-color: #EDECEC;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border: none;
+}
+
+.Newsletter-search input:hover {
+    border: 1px solid black;
+    background-color: white;
+}
+
+
+
+/*............................Need........................*/
+
+.Need {
+    width: 100%;
+    height: 420px;
+    /*    padding: 30px;*/
+}
+
+.Need-box {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+
+
+.Need-pic {
+    width: 70%;
+    background-image: url(img/parth%20bac3.jpg);
+    background-size: cover;
+    clip-path: polygon(10% 0, 100% 0, 100% 50%, 100% 100%, 32% 100%, 10% 31%);
+}
+
+.Need-text {
+    /*    width: 30%;background-color: black;*/
+}
+
+.Need-text {
+
+    background-size: cover;
+    width: 450px;
+    height: 350px;
+    margin: 0px 20px 0px 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.Need-text-contain {
+    padding: 50px 0px 0px 60px;
+
+}
+
+
+.Need-text-contain h1 {
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+
+
+.Need-text-contain a {
+    /*    margin-top: 1000px;*/
+    background-color: #7D2CFF;
+    padding: 15px 50px 15px 50px;
+    /*    border-radius: 30%;*/
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+
+}
+
+.Need-text-contain a:hover {
+    background-color: black;
+}
+
+
+
+
+
+/*............................footer........................*/
+
+.footer1 {
+
+    width: 100%;
+    height: 550px;
+    background-color: white;
+    display: flex;
+    /*        justify-content: space-around;*/
+}
+
+
+.footer-nav ul {
+    list-style: none;
+}
+
+.footer-nav ul li {
+    padding-bottom: 15px;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family: sans-serif;
+    /*    font-weight: 100; */
+}
+
+.top-nav {
+    padding-bottom: 50px;
+    font-weight: bold;
+
+}
+
+.top-nav a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.footer-tittle h3{
+    font-family: sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+.footer-tittle h2{
+    color: #FAB750;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+    font-weight: lighter;
+}
+
+
+.foot {
+    padding: 50px;
+    width: 30%;
+}
+.footer-logo h2{
+    color: black;
+    font-size: 12px;
+    font-weight: 100;
+    width: 250px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+ 
+
+
+.footer2{
+    height: 200px;
+    width: 100%;
+    display: flex;
+   
+    justify-content: space-around;
+    background-color: white;
+}
+
+
+
+.footer2-main h5{
+    font-family: sans-serif;
+    font-size: 11px;
+/*    margin-top: 10px;*/
+/*  background-color: #EDECEC; */
+    padding: 10px 100px 10px 300px;
+}
+
+
+.footer2-main img{
+    margin-top: 20px;
+}
+
+
+.footer2-main h2{
+    font-family: sans-serif;
+    font-size: 13px;
+  background-color: #EDECEC; 
+    padding: 10px 100px 10px 250px;
+    margin-top: 30px;
+/*    width: 100%;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
